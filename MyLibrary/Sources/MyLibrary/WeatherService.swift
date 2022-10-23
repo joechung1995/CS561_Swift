@@ -13,7 +13,8 @@ enum BaseUrl: String {
 let apiKey = "6810dc9f50f54b90289eb8e83ed6fd14"
 
 class WeatherServiceImpl: WeatherService {
-    let url = "\(BaseUrl.openweathermap.rawValue)/data/2.5/weather?q=corvallis&units=imperial&appid=\(apiKey)"
+    //let url = "\(BaseUrl.openweathermap.rawValue)/data/2.5/weather?q=corvallis&units=imperial&appid=\(apiKey)"
+    let url = "https://d88017dc-88db-4a8c-931b-ea45fdf62c3e.mock.pstmn.io/v1/home"
     //let url = "https://api.openweathermap.org/data/2.5/weather?q=corvallis&units=imperial&appid=6810dc9f50f54b90289eb8e83ed6fd14"
     //let url = "https://api.openweathermap.org/data/2.5/weather?q=corvallis&units=imperial&appid=<INSERT YOUR API KEY HERE>"
     
